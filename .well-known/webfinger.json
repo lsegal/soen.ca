@@ -1,0 +1,23 @@
+{
+  "subject": "acct:lsegal@efnet.social",
+  "aliases": [
+    "https://efnet.social/@lsegal",
+    "https://efnet.social/users/lsegal"
+  ],
+  "links": [
+    {
+      "rel": "http://webfinger.net/rel/profile-page",
+      "type": "text/html",
+      "href": "https://efnet.social/@lsegal"
+    },
+    {
+      "rel": "self",
+      "type": "application/activity+json",
+      "href": "https://efnet.social/users/lsegal"
+    },
+    {
+      "rel": "http://ostatus.org/schema/1.0/subscribe",
+      "template": "https://efnet.social/authorize_interaction?uri={uri}"
+    }
+  ]
+}
